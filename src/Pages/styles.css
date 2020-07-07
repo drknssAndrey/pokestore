@@ -1,0 +1,293 @@
+.pokecard {
+  border-width: 0.3em !important;
+  text-align: center;
+}
+
+.fire {
+  border-color: #f9a824 !important;
+}
+.fire:hover {
+  border-color: #f27e31ff !important;
+}
+.water {
+  border-color: #5aa6daff !important;
+}
+.water:hover {
+  border-color: rgb(58, 147, 206) !important;
+}
+.electric {
+  border-color: #f3d64cff !important;
+}
+.electric:hover {
+  border-color: rgb(230, 192, 41) !important;
+}
+.grass {
+  border-color: rgb(104, 206, 91) !important;
+  /*background: rgb(46,113,0);
+    background: linear-gradient(0deg, rgba(46,113,0,1) 0%, rgba(0,255,89,1) 100%);*/
+}
+.grass:hover {
+  border-color: rgb(84, 189, 23) !important;
+}
+.ice {
+  border-color: #8dddd4ff !important;
+}
+.ice:hover {
+  border-color: #98d7dcff !important;
+}
+.fighting {
+  border-color: rgb(230, 70, 78) !important;
+}
+.fighting:hover {
+  border-color: #c62c2cff !important;
+}
+.poison {
+  border-color: #b964ccff !important;
+}
+.poison:hover {
+  border-color: #ac4caeff !important;
+}
+.ground {
+  border-color: rgb(224, 126, 76) !important;
+}
+.ground:hover {
+  border-color: rgb(202, 106, 58) !important;
+}
+.flying {
+  border-color: #8fafdeff !important;
+}
+.flying:hover {
+  border-color: #a38cf4ff !important;
+}
+.psychic {
+  border-color: #f48278ff !important;
+}
+.psychic:hover {
+  border-color: #fc5686ff !important;
+}
+.bug {
+  border-color: #97c42dff !important;
+}
+.bug:hover {
+  border-color: rgb(133, 173, 39) !important;
+}
+.rock {
+  border-color: #d5bf86ff !important;
+}
+.rock:hover {
+  border-color: #b8a036ff !important;
+}
+.dragon {
+  border-color: #0b6cbdff !important;
+}
+.dragon:hover {
+  border-color: #793fffff !important;
+}
+.ghost {
+  border-color: #686ec6ff !important;
+}
+.ghost:hover {
+  border-color: #725a96ff !important;
+}
+.dark {
+  border-color: #625e6fff !important;
+}
+.dark:hover {
+  border-color: #735c4cff !important;
+}
+.steel {
+  border-color: #579ca1ff !important;
+}
+.steel:hover {
+  border-color: rgb(170, 170, 196) !important;
+}
+.normal {
+  border-color: rgb(161, 168, 179) !important;
+}
+.normal:hover {
+  border-color: rgb(132, 138, 148) !important;
+}
+.fairy {
+  border-color: #f090e9ff !important;
+}
+.fairy:hover {
+  border-color: rgb(243, 105, 234) !important;
+}
+
+a > .badge {
+  color: black;
+}
+.badge.fire {
+  background-color: #f9a824 !important;
+}
+.badge.fire:hover,
+.badge.fire.active {
+  background-color: #f27e31ff !important;
+}
+.badge.water {
+  background-color: #5aa6daff !important;
+}
+.badge.water:hover,
+.badge.water.active {
+  background-color: rgb(58, 147, 206) !important;
+}
+.badge.electric {
+  background-color: #f3d64cff !important;
+}
+.badge.electric:hover,
+.badge.electric.active {
+  background-color: rgb(230, 192, 41) !important;
+}
+.badge.grass {
+  background-color: rgb(104, 206, 91) !important;
+}
+.badge.grass:hover,
+.badge.grass.active {
+  background-color: rgb(84, 189, 23) !important;
+}
+.badge.ice {
+  background-color: #8dddd4ff !important;
+}
+.badge.ice:hover,
+.badge.ice.active {
+  background-color: #98d7dcff !important;
+}
+.badge.fighting {
+  background-color: rgb(230, 70, 78) !important;
+}
+.badge.fighting:hover,
+.badge.fighting.active {
+  background-color: #c62c2cff !important;
+}
+.badge.poison {
+  background-color: #b964ccff !important;
+}
+.badge.poison:hover,
+.badge.poison.active {
+  background-color: #ac4caeff !important;
+}
+.badge.ground {
+  background-color: rgb(224, 126, 76) !important;
+}
+.badge.ground:hover,
+.badge.ground.active {
+  background-color: rgb(202, 106, 58) !important;
+}
+.badge.flying {
+  background-color: #8fafdeff !important;
+}
+.badge.flying:hover,
+.badge.flying.active {
+  background-color: #a38cf4ff !important;
+}
+.badge.psychic {
+  background-color: #f48278ff !important;
+}
+.badge.psychic:hover,
+.badge.psychic.active {
+  background-color: #fc5686ff !important;
+}
+.badge.bug {
+  background-color: #97c42dff !important;
+}
+.badge.bug:hover,
+.badge.bug.active {
+  background-color: rgb(133, 173, 39) !important;
+}
+.badge.rock {
+  background-color: #d5bf86ff !important;
+}
+.badge.rock:hover,
+.badge.rock.active {
+  background-color: #b8a036ff !important;
+}
+.badge.dragon {
+  background-color: #0b6cbdff !important;
+}
+.badge.dragon:hover,
+.badge.dragon.active {
+  background-color: #793fffff !important;
+}
+.badge.ghost {
+  background-color: #686ec6ff !important;
+}
+.badge.ghost:hover,
+.badge.ghost.active {
+  background-color: #725a96ff !important;
+}
+.badge.dark {
+  background-color: #625e6fff !important;
+}
+.badge.dark:hover,
+.badge.dark.active {
+  background-color: #735c4cff !important;
+}
+.badge.steel {
+  background-color: #579ca1ff !important;
+}
+.badge.steel:hover,
+.badge.steel.active {
+  background-color: rgb(170, 170, 196) !important;
+}
+.badge.normal {
+  background-color: rgb(161, 168, 179) !important;
+}
+.badge.normal:hover,
+.badge.normal.active {
+  background-color: rgb(132, 138, 148) !important;
+}
+.badge.fairy {
+  background-color: #f090e9ff !important;
+}
+.badge.fairy:hover,
+.badge.fairy.active {
+  background-color: rgb(243, 105, 234) !important;
+}
+
+.icons-right {
+  position: relative;
+  bottom: 0px;
+  right: 8px;
+}
+
+.cart {
+  position: relative;
+  top: 0px;
+  right: 5px;
+  min-width: 17em;
+}
+
+.card .cart-add {
+  visibility: visible;
+}
+
+.card:hover .cart-add {
+  visibility: visible;
+}
+
+.card {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.types {
+  position: fixed;
+  top: 100px;
+  left: 8px;
+}
+.price {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tipo {
+  margin: 0 auto;
+}
+.carrinho {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+.add-cart:hover {
+  box-shadow: 3px 3px 3px black;
+}
